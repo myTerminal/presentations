@@ -46,13 +46,13 @@ or
 
 ### Notes
 
-Douglas Crockford is not just a random senior programmer. He is a major contributor to what we call as JSON today.
+**Douglas Crockford** is not just a random senior programmer. He is a major contributor to what we call as JSON today.
 
-This session will mostly use the new (ES2015+) constructs in JavaScript, but will often use older syntax for simplicity and comparison.
+This session will **mostly use the new (ES2015+) constructs in JavaScript**, but will often use older syntax for simplicity and comparison.
 
 As we can see, the function `apply` accepts a function as the first parameter, just like we accept a value as the second parameter which can be in the form of a number, string, boolean, etc.
 
-There is no visible difference between the two parameters until you see closely that the first is being invoked, and the second one is being passed to it as a parameter.
+There is **no visible difference between the two parameters** until you see closely that the first is being invoked, and the second one is being passed to it as a parameter.
 
 ## Theory (2/8): Higher-order functions
 
@@ -109,7 +109,7 @@ Below are some representations of an identity function in a few different progra
 
 In short: "you get what you give".
 
-And it may be required when you have to provide a function instead of value but it does not necessarily have a behavior.
+And it may be required when you have to provide a function instead of value but it **does not necessarily have a behavior**.
 
 ## Theory (4/8): Free variables
 
@@ -170,9 +170,9 @@ It cannot be replaced by its value as doing so would alter the value of the resu
 
 ### Notes
 
-There is one thing that is definitely preventing this function to be referentially transparent: it creates a side effect. Which means upon its execution, it is changing the value of a variable that it does not own and is not supposed to.
+There is one thing that is definitely preventing this function to be referentially transparent: **it creates a side effect**. Which means upon its execution, it is changing the value of a variable that it does not own and is not supposed to.
 
-The other thing is (which you would have guessed by now), it has a free-variable.
+The other thing is (which you would have guessed by now), **it has a free-variable**.
 
 **Conclusion:** For a function to be referentially transparent, it should not have any free-variables.
 
@@ -244,11 +244,11 @@ Consider the below function that computes the factorial of a positive number.
 
 ### Notes
 
-For obvious reasons, the function `factorial` is not designed to be clean.
+For obvious reasons, the function `factorial` is **not designed to be clean**.
 
-There is at least one sign that it is not clean: there are multiple return statements, something which is to be avoided while writing functions, unless really necessary.
+There is at least one sign that it is not clean: there are **multiple return statements**, something which is to be avoided while writing functions, unless really necessary.
 
-In the above function, the factorial of a number can be computed assuming we know how to compute the factorial of a smaller number. The process of delegation continues until the factorial of the current number is already known and there is no more delegation needed.
+In the above function, the factorial of a number can be computed assuming we know how to compute the factorial of a smaller number. The process of **delegation continues until the factorial of the current number is already known** and there is no more delegation needed.
 
 ## Recursion in Lambda Calculus
 
@@ -330,17 +330,17 @@ Meet our helper to help us with the activity:
 
 ### Notes
 
-The activity of deriving the Y-Combinator will involve multiple steps.
+The activity of deriving the Y-Combinator will involve **multiple steps**.
 
-We will start with a simple function that 'sort of' does what we need, we run a few tests, find what is missing and improve it in the next step.
+We will **start with a simple function** that 'sort of' does what we need, we run a few tests, **find what is missing** and **improve it** in the next step.
 
 After a few iterations, we will eventually have what we are looking for and [there will be cake](https://theportalwiki.com/wiki/cake).
 
-For each step though, we need a helper function to test whether our current implementation does what it is supposed to.
+For each step though, **we need a helper function** to test whether our current implementation does what it is supposed to.
 
-One of the ways we can test whether a particular iteration of our function behaves as it is supposed to could be passing a certain range of values to the function as input and observing the output produced for those values.
+One of the ways we can test whether a particular iteration of our function behaves as it is supposed to could be passing **a certain range of values** to the function as input and observing the output produced for those values.
 
-For the purpose of this activity, let us take numbers from 0 to 9, which is a reasonable range of input values for to know that we have reached our goal to create the function we are looking for.
+For the purpose of this activity, **let us take numbers from 0 to 9**, which is a reasonable range of input values for to know that we have reached our goal to create the function we are looking for.
 
 ## Our helper function (2/2)
 
@@ -407,9 +407,9 @@ The `recurse_v0` function, as it is not allowed (or capable of) calling itself, 
 
 The function `nextStep` is an attempt to simulate *breaking down of the problem into a smaller one (the recursive call)*.
 
-As we do not have a clue for what the next step will look like exactly, we'll use an identity function as the next step for now.
+As we do not have a clue for what the next step will look like exactly, **we'll use an identity function as the next step** for now.
 
-Also, the next few slides will involve live-coding and we'll spend more time with code, than with slides so let's keep all theory aside and switch to code!
+Also, the next few slides will involve live-coding and we'll spend more time with code, than with slides so **let's keep all theory aside and switch to code!**
 
 So, for each number, we (try to) calculate factorial as:
 
@@ -421,7 +421,7 @@ In order to print the (psuedo) factorial we can use our helper function:
 
 For values 0 to 9, the function does what it is supposed to, only if the input is equal to or less than 3.
 
-This simply proves something that we already know: Identity function will not help us in our cause. We need to fix that.
+This simply proves something that we already know: **Identity function will not help** us in our cause. We need to fix that.
 
 ## Y-Combinator: Step 1
 
@@ -486,7 +486,7 @@ and now as the logic for factorial is out of the way, our next iteration could b
 
 ### Notes
 
-The implementation is now independent of the actual recursive function that we need to create.
+The implementation is now **independent of the actual recursive function** that we need to create.
 
 To see what the behavior of our function is now, let us test this iteration with our helper function.
 
@@ -558,7 +558,7 @@ Let us try to create a function that replaces all numbered functions like `funct
 
 At first sight, this should work but it doesn't.
 
-The reason is that the structure of `makeStep` is different as compared to the function it was made to replace. The earlier functions used to accept a number and this one accepts the next step, which is a function itself.
+The reason is that **the structure of `makeStep` is different as compared to the function it was made to replace**. The earlier functions used to accept a number and this one accepts the next step, which is a function itself.
 
 Not there yet, but we are very close.
 
@@ -620,7 +620,7 @@ Matching certain patterns here, we can reduce the overall function to:
 
 ### Notes
 
-And this brings us to what we needed: we almost have a Y-combinator.
+And this brings us to what we needed: **we almost have a Y-combinator**.
 
 ## Y-Combinator: We made it!
 
@@ -768,7 +768,7 @@ Consider a hypothetical situation when we need to call the function `doubleLogge
 
 As you would expect, the function `double` gets called `6` times, out of which, it is `3` three times with input being `1`.
 
-Now, assume this function to be very resource intensive. How about saving time and other resources spent on every function call and returning the result for input `1` from a saved location for successive function calls?
+Now, assume this function to be **very resource intensive**. How about saving time and other resources spent on every function call and returning the result for input `1` from a saved location for successive function calls?
 
 That can be achieved using memoization.
 
@@ -784,7 +784,7 @@ we get a memoized function that doubles its inputs efficiently.
 
 So, how many times is the `doubleLogged` function called this time?
 
-## Notes
+### Notes
 
 Definitely, the function is called only `4` times instead of `6` as for successive calls, our memoized function knew the output for input `1` and simply returned the output from the cache.
 
@@ -836,7 +836,7 @@ However, while calculating factorial for value `6`, it had to calculate factoria
 
 Practically it should not have been called for values `2` and `1` once more, having already calculated the output for those two values before. However, that is not the case.
 
-Can you guess why? The answer is simple, our `memoize` function could only memoize the outer calls to `factorialLogger`. It had no control once the outer function was called.
+Can you guess why? The answer is simple, **our `memoize` function could only memoize the outer calls to `factorialLogger`**. It had no control once the outer function was called.
 
 If the outer function was called for the same value again, it found a previously cached output. However, for any calls to itself from inside, it was not instructed to use the cache and it simply kept making more calls to itself.
 
