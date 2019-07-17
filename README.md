@@ -6,16 +6,16 @@ A store of few of my handcrafted presentations
 
 ## Index
 
-### Technical presentations
+### [Technical presentations](technical)
 
-- [Why Use Emacs in 2017](why-use-emacs-in-2017)
-- [Functional Programming with JavaScript](functional-programming-with-javascript)
-- [Asynchronous JavaScript](asynchronous-javascript)
-- [Recursion, Memoization and more...](recursion-memoization-and-more)
+- [Why Use Emacs in 2017](technical/why-use-emacs-in-2017)
+- [Functional Programming with JavaScript](technical/functional-programming-with-javascript)
+- [Asynchronous JavaScript](technical/asynchronous-javascript)
+- [Recursion, Memoization and more...](technical/recursion-memoization-and-more)
 
-### Mini-Talks
+### [Mini-Talks](mini-talks)
 
-- [Get Help, Appreciate, Give Back](get-help-appreciate-give-back)
+- [Get Help, Appreciate, Give Back](mini-talks/get-help-appreciate-give-back)
 
 ## Design and Structure
 
