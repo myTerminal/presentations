@@ -125,9 +125,9 @@ But it can be suggested that you should at least try it out so that you could go
 
 Emacs has a strong community of developers who would love to help you get started, pull you out of trouble when you get stuck and write extensions for free.
 
-[Perry E. Metzger](https://twitter.com/perrymetzger), a very senior Emacs user has called it *The Editor of a Lifetime* at an Emacs meetup in New York in August 2014 where he stated that he had been using Emacs for 31 years back then.
+[Perry E. Metzger](https://twitter.com/perrymetzger), an Emacs user since 1983 has called it *The Editor of a Lifetime* at an Emacs meetup in New York in August 2014 where he mentioned that he had been using Emacs for 31 years back then. You can watch a [recording on YouTube](http://www.youtube.com/watch?v=VADudzQGvU8) or view the [slides](http://emacsnyc.org/assets/documents/emacs-the-editor-of-a-lifetime.pdf).
 
-You can view a recording [here](http://www.youtube.com/watch?v=VADudzQGvU8) or you could view the slides [here](http://emacsnyc.org/assets/documents/emacs-the-editor-of-a-lifetime.pdf).
+*Update*: At [EmacsConf 2019](https://emacsconf.org/2019), a follow-up talk was presented and it was titled [Emacs: The Editor for the Next Forty Years](https://www.youtube.com/watch?v=KYcY7CcS7nc).
 
 ## My Configuration
 
