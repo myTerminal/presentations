@@ -1,17 +1,3 @@
-# The Right Tool For The Job: The Situation With Choices
+# The Right Tool For The Job
 
-## Furthermore to the mind-map
-
-(Empty)
-
-## A few observations
-
-(Empty)
-
-## How to solve the problem?
-
-(Empty)
-
-## Coming soon
-
-(Empty)
+1. [The Situation With Choices](01-the-situation-with-choices)
