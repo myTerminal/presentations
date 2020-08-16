@@ -17,6 +17,10 @@ A store of few of my handcrafted presentations
 
 - [Get Help, Appreciate, Give Back](mini-talks/get-help-appreciate-give-back)
 
+### [Series](series)
+
+- [The Right Tool For The Job](series/the-right-tool-for-the-job)
+
 ## Design and Structure
 
 These presentations have been designed to be compatible with [Slide Gazer](https://github.com/team-fluxion/slide-gazer) which is currently deployed on [team.fluxion server](http://slide-gazer.teamfluxion.com).
