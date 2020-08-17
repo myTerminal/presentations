@@ -13,26 +13,30 @@
 
 ## What is not included in the mini-map
 
-- Choices for hardware tools
-- Choices for the tools used, ex: text-editors, web-browsers, terminal emulators, etc.
-- Choices for coding-standards, style, and other such preferences
+We didn't talk about choices for -
+
+- Hardware tools
+- The tools used, example: text-editors, web-browsers, terminal emulators, etc.
+- Coding-standards and style including spaces-vs-tabs, file encoding, line-endings, etc.
 
 ## A few observations
 
-- Almost everything you want to achieve has choices associated with it
+- Like life, almost every software implementation comes with choices
 - Not a single choice is bad/useless/unworthy
 - Not a single choice is "the best"
-- An implementation can comprise of two choices at once in combination
+- An implementation can comprise of more than a single choices at once in combination
 - It is not possible for a normal developer/engineer to be fully well-versed with all the leaves in the tree
 
-## How to solve the problem?
+## Thoughts on solving the problem
 
-- We are supposed to make software and not the other way around
-- Never be limited to one leaf in a node but be open to options
-- "The right" leaf should be decided just for the problem at hand, only after understanding the problem entirely
-- Regularly make sure more leaves keep growing
-- Re-evaluate the choices we make and adapt if required/suitable
+![A branch with leaves](assets/tree-branch-leaves.png)
+
+- We create software and not the other way around
+- One should never limit themselves to a single leaf on a branch but should be open to options
+- A leaf is "best" just for the current problem at hand, and only with complete understanding of the problem
+- The tree should grow more leaves regularly, dropping a few if necessary
+- Choices from the past can be re-evaluated keeping the new leaves in picture and implementations should adapt if necessary
 
 ## Coming soon
 
-We'll dive deeper down the three starting from the root and talk about a few strategies to choose the right leaf/leaves for a particular implementation.
+We'll dive deeper down the tree starting from the root and talk about a few strategies to help us choose the right leaf/leaves for a particular implementation.
